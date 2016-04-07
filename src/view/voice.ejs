@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<% include parts/_ifIE %>
+<head>
+<% title = 'voice' %>
+<% include parts/_meta %>
+
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+  <div class="bg-warning">
+    <div class="container">
+      <h1 class="top-title">voice web speech api</h1>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <h2>日本語音声解説</h2>
+  <p>(」・ω・)」うー！(／・ω・)／にゃー！　(」・ω・)」うー！(／・ω・)／にゃー！</p>
+
+  <div class="form-group">
+    <textarea id="result-text" class="form-control" cols="30" rows="10"></textarea>
+  </div>
+  <input type="button" value="録音開始" class="btn-sm btn-primary start-record">
+
+  <script src="/js/voice.bundle.js"></script>
+</div>
+</body>
+</html>

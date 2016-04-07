@@ -1,0 +1,239 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$sprite-icon-facility-0400300001-name: 'sprite-icon_facility_0400300001';
+$sprite-icon-facility-0400300001-x: 30px;
+$sprite-icon-facility-0400300001-y: 0px;
+$sprite-icon-facility-0400300001-offset-x: -30px;
+$sprite-icon-facility-0400300001-offset-y: 0px;
+$sprite-icon-facility-0400300001-width: 30px;
+$sprite-icon-facility-0400300001-height: 30px;
+$sprite-icon-facility-0400300001-total-width: 120px;
+$sprite-icon-facility-0400300001-total-height: 120px;
+$sprite-icon-facility-0400300001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400300001: (30px, 0px, -30px, 0px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400300001', );
+$sprite-icon-facility-0400400001-name: 'sprite-icon_facility_0400400001';
+$sprite-icon-facility-0400400001-x: 30px;
+$sprite-icon-facility-0400400001-y: 60px;
+$sprite-icon-facility-0400400001-offset-x: -30px;
+$sprite-icon-facility-0400400001-offset-y: -60px;
+$sprite-icon-facility-0400400001-width: 30px;
+$sprite-icon-facility-0400400001-height: 30px;
+$sprite-icon-facility-0400400001-total-width: 120px;
+$sprite-icon-facility-0400400001-total-height: 120px;
+$sprite-icon-facility-0400400001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400400001: (30px, 60px, -30px, -60px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400400001', );
+$sprite-icon-facility-0400400002-name: 'sprite-icon_facility_0400400002';
+$sprite-icon-facility-0400400002-x: 0px;
+$sprite-icon-facility-0400400002-y: 30px;
+$sprite-icon-facility-0400400002-offset-x: 0px;
+$sprite-icon-facility-0400400002-offset-y: -30px;
+$sprite-icon-facility-0400400002-width: 30px;
+$sprite-icon-facility-0400400002-height: 30px;
+$sprite-icon-facility-0400400002-total-width: 120px;
+$sprite-icon-facility-0400400002-total-height: 120px;
+$sprite-icon-facility-0400400002-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400400002: (0px, 30px, 0px, -30px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400400002', );
+$sprite-icon-facility-0400400003-name: 'sprite-icon_facility_0400400003';
+$sprite-icon-facility-0400400003-x: 30px;
+$sprite-icon-facility-0400400003-y: 30px;
+$sprite-icon-facility-0400400003-offset-x: -30px;
+$sprite-icon-facility-0400400003-offset-y: -30px;
+$sprite-icon-facility-0400400003-width: 30px;
+$sprite-icon-facility-0400400003-height: 30px;
+$sprite-icon-facility-0400400003-total-width: 120px;
+$sprite-icon-facility-0400400003-total-height: 120px;
+$sprite-icon-facility-0400400003-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400400003: (30px, 30px, -30px, -30px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400400003', );
+$sprite-icon-facility-0400400004-name: 'sprite-icon_facility_0400400004';
+$sprite-icon-facility-0400400004-x: 60px;
+$sprite-icon-facility-0400400004-y: 0px;
+$sprite-icon-facility-0400400004-offset-x: -60px;
+$sprite-icon-facility-0400400004-offset-y: 0px;
+$sprite-icon-facility-0400400004-width: 30px;
+$sprite-icon-facility-0400400004-height: 30px;
+$sprite-icon-facility-0400400004-total-width: 120px;
+$sprite-icon-facility-0400400004-total-height: 120px;
+$sprite-icon-facility-0400400004-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400400004: (60px, 0px, -60px, 0px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400400004', );
+$sprite-icon-facility-0400500001-name: 'sprite-icon_facility_0400500001';
+$sprite-icon-facility-0400500001-x: 60px;
+$sprite-icon-facility-0400500001-y: 30px;
+$sprite-icon-facility-0400500001-offset-x: -60px;
+$sprite-icon-facility-0400500001-offset-y: -30px;
+$sprite-icon-facility-0400500001-width: 30px;
+$sprite-icon-facility-0400500001-height: 30px;
+$sprite-icon-facility-0400500001-total-width: 120px;
+$sprite-icon-facility-0400500001-total-height: 120px;
+$sprite-icon-facility-0400500001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400500001: (60px, 30px, -60px, -30px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400500001', );
+$sprite-icon-facility-0400500002-name: 'sprite-icon_facility_0400500002';
+$sprite-icon-facility-0400500002-x: 0px;
+$sprite-icon-facility-0400500002-y: 60px;
+$sprite-icon-facility-0400500002-offset-x: 0px;
+$sprite-icon-facility-0400500002-offset-y: -60px;
+$sprite-icon-facility-0400500002-width: 30px;
+$sprite-icon-facility-0400500002-height: 30px;
+$sprite-icon-facility-0400500002-total-width: 120px;
+$sprite-icon-facility-0400500002-total-height: 120px;
+$sprite-icon-facility-0400500002-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400500002: (0px, 60px, 0px, -60px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400500002', );
+$sprite-icon-facility-0400700001-name: 'sprite-icon_facility_0400700001';
+$sprite-icon-facility-0400700001-x: 0px;
+$sprite-icon-facility-0400700001-y: 0px;
+$sprite-icon-facility-0400700001-offset-x: 0px;
+$sprite-icon-facility-0400700001-offset-y: 0px;
+$sprite-icon-facility-0400700001-width: 30px;
+$sprite-icon-facility-0400700001-height: 30px;
+$sprite-icon-facility-0400700001-total-width: 120px;
+$sprite-icon-facility-0400700001-total-height: 120px;
+$sprite-icon-facility-0400700001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400700001: (0px, 0px, 0px, 0px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400700001', );
+$sprite-icon-facility-0400800001-name: 'sprite-icon_facility_0400800001';
+$sprite-icon-facility-0400800001-x: 60px;
+$sprite-icon-facility-0400800001-y: 60px;
+$sprite-icon-facility-0400800001-offset-x: -60px;
+$sprite-icon-facility-0400800001-offset-y: -60px;
+$sprite-icon-facility-0400800001-width: 30px;
+$sprite-icon-facility-0400800001-height: 30px;
+$sprite-icon-facility-0400800001-total-width: 120px;
+$sprite-icon-facility-0400800001-total-height: 120px;
+$sprite-icon-facility-0400800001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400800001: (60px, 60px, -60px, -60px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400800001', );
+$sprite-icon-facility-0400900001-name: 'sprite-icon_facility_0400900001';
+$sprite-icon-facility-0400900001-x: 90px;
+$sprite-icon-facility-0400900001-y: 0px;
+$sprite-icon-facility-0400900001-offset-x: -90px;
+$sprite-icon-facility-0400900001-offset-y: 0px;
+$sprite-icon-facility-0400900001-width: 30px;
+$sprite-icon-facility-0400900001-height: 30px;
+$sprite-icon-facility-0400900001-total-width: 120px;
+$sprite-icon-facility-0400900001-total-height: 120px;
+$sprite-icon-facility-0400900001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0400900001: (90px, 0px, -90px, 0px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0400900001', );
+$sprite-icon-facility-0401000001-name: 'sprite-icon_facility_0401000001';
+$sprite-icon-facility-0401000001-x: 90px;
+$sprite-icon-facility-0401000001-y: 30px;
+$sprite-icon-facility-0401000001-offset-x: -90px;
+$sprite-icon-facility-0401000001-offset-y: -30px;
+$sprite-icon-facility-0401000001-width: 30px;
+$sprite-icon-facility-0401000001-height: 30px;
+$sprite-icon-facility-0401000001-total-width: 120px;
+$sprite-icon-facility-0401000001-total-height: 120px;
+$sprite-icon-facility-0401000001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0401000001: (90px, 30px, -90px, -30px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0401000001', );
+$sprite-icon-facility-0401100001-name: 'sprite-icon_facility_0401100001';
+$sprite-icon-facility-0401100001-x: 90px;
+$sprite-icon-facility-0401100001-y: 60px;
+$sprite-icon-facility-0401100001-offset-x: -90px;
+$sprite-icon-facility-0401100001-offset-y: -60px;
+$sprite-icon-facility-0401100001-width: 30px;
+$sprite-icon-facility-0401100001-height: 30px;
+$sprite-icon-facility-0401100001-total-width: 120px;
+$sprite-icon-facility-0401100001-total-height: 120px;
+$sprite-icon-facility-0401100001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0401100001: (90px, 60px, -90px, -60px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0401100001', );
+$sprite-icon-facility-0401200001-name: 'sprite-icon_facility_0401200001';
+$sprite-icon-facility-0401200001-x: 0px;
+$sprite-icon-facility-0401200001-y: 90px;
+$sprite-icon-facility-0401200001-offset-x: 0px;
+$sprite-icon-facility-0401200001-offset-y: -90px;
+$sprite-icon-facility-0401200001-width: 30px;
+$sprite-icon-facility-0401200001-height: 30px;
+$sprite-icon-facility-0401200001-total-width: 120px;
+$sprite-icon-facility-0401200001-total-height: 120px;
+$sprite-icon-facility-0401200001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0401200001: (0px, 90px, 0px, -90px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0401200001', );
+$sprite-icon-facility-0401300001-name: 'sprite-icon_facility_0401300001';
+$sprite-icon-facility-0401300001-x: 30px;
+$sprite-icon-facility-0401300001-y: 90px;
+$sprite-icon-facility-0401300001-offset-x: -30px;
+$sprite-icon-facility-0401300001-offset-y: -90px;
+$sprite-icon-facility-0401300001-width: 30px;
+$sprite-icon-facility-0401300001-height: 30px;
+$sprite-icon-facility-0401300001-total-width: 120px;
+$sprite-icon-facility-0401300001-total-height: 120px;
+$sprite-icon-facility-0401300001-image: '/images/sprite/sprite.png';
+$sprite-icon-facility-0401300001: (30px, 90px, -30px, -90px, 30px, 30px, 120px, 120px, '/images/sprite/sprite.png', 'sprite-icon_facility_0401300001', );
+$spritesheet-width: 120px;
+$spritesheet-height: 120px;
+$spritesheet-image: '/images/sprite/sprite.png';
+$spritesheet-sprites: ($sprite-icon-facility-0400300001, $sprite-icon-facility-0400400001, $sprite-icon-facility-0400400002, $sprite-icon-facility-0400400003, $sprite-icon-facility-0400400004, $sprite-icon-facility-0400500001, $sprite-icon-facility-0400500002, $sprite-icon-facility-0400700001, $sprite-icon-facility-0400800001, $sprite-icon-facility-0400900001, $sprite-icon-facility-0401000001, $sprite-icon-facility-0401100001, $sprite-icon-facility-0401200001, $sprite-icon-facility-0401300001, );
+$spritesheet: (120px, 120px, '/images/sprite/sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

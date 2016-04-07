@@ -1,0 +1,52 @@
+.icon-facility-0400300001 {
+  @include sprite($sprite-icon-facility-0400300001);
+  display: block;
+}
+
+.top-title {
+  color: #4E2100;
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.3;
+}
+
+.thumbnail-cel {
+  box-shadow: 0 4px 5px -4px rgba(0, 0, 0, 0.3);
+
+  .description {
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+}
+
+.top-thumbnail {
+  max-height: 220px;
+}
+
+.box-categories {
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #ded5c0;
+
+  h2 {
+    font-size: 1.6em;
+    border-radius: 4px 4px 0 0;
+    padding: 5px 3px 3px 10px;
+    margin: 0;
+    color: #4d2200;
+    background-color: #efe1be;
+    position: relative;
+  }
+
+  h3 {
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+}
+
+.block10 {
+  padding: 10px;
+  margin: 0;
+}
